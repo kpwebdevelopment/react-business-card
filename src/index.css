@@ -1,0 +1,103 @@
+body {
+  margin: 0px;
+  background-color: #23252C;
+  font-family: "Inter", sans-serif;
+}
+
+h1, p, h2{
+  margin: 0px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.app {
+  background-color: #1A1B21;
+  margin: 0px auto;
+  width: 100%;
+  border-radius: 10px;
+  color: #FFF;
+}
+
+.profile-pic {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.header {
+  text-align: center;
+}
+
+.header > h1 {
+  margin: 20px 0px 3px 0px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.header > .gold-text {
+  margin: 0px 0px 7px 0px;
+  color: #F3BF99;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.header > p {
+
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.button {
+  padding: 10px 28px;
+  border-radius: 6px;
+  border: 0px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  margin: 20px 0px 0px 0px;
+}
+
+.button:nth-of-type(2) {
+  background-color: #5093E2;
+  color: white
+}
+
+.button-div {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.fa-solid, .fa-brands {
+  margin-right: 5px;
+}
+
+.main {
+  padding: 35px 35px 25px 35px;
+}
+
+.main > p {
+  color: #DCDCDC;
+  margin-bottom: 25px;
+}
+
+.footer {
+  background-color: #161619;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footer > i {
+  font-size: 35px;
+  color: #918E9B;
+}
+
+@media (min-width: 768px) {
+  .app {
+    width: 20%;
+  }
+}
