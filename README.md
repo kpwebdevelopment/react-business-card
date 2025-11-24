@@ -48,4 +48,4 @@ The project is broken into simple, reusable components:
 Clone the project:
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/kpwebdevelopment/react-business-card
