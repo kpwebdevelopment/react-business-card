@@ -1,17 +1,51 @@
-# React + Vite
+# 💼 Digital Profile Card — React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, modern digital profile card built with **React** and **Vite**, inspired by a business card layout.  
+This project showcases a personal profile with an image, name, title, contact buttons, an About section, Interests, and social links.
 
-Currently, two official plugins are available:
+Perfect for practicing component structure, responsive design, props, and styling in a small focused React application.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive digital profile card layout  
+- Image header with rounded corners  
+- Name, role, and email display  
+- Email + LinkedIn buttons with icons  
+- "About" and "Interests" sections  
+- Social media icons footer  
+- Clean component structure  
+- Styled with CSS (no frameworks needed)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# react-business-card" 
+## 🧩 Components
+
+The project is broken into simple, reusable components:
+
+- **Header.jsx** — Profile image, name, role, email  
+- **Buttons.jsx** — Email and LinkedIn buttons  
+- **About.jsx** — Bio/description section  
+- **Interests.jsx** — List of interests  
+- **Footer.jsx** — Social icons  
+- **App.jsx** — Main wrapper  
+
+---
+
+## 🛠️ Tech Stack
+
+- **React**  
+- **Vite**  
+- **JavaScript (ES6+)**  
+- **CSS3**  
+- **Font Awesome Icons**  
+
+---
+
+## 📦 Installation & Setup
+
+Clone the project:
+
+```bash
+git clone https://github.com/yourusername/your-repo-name.git
